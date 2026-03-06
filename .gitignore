@@ -17,3 +17,13 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Ignore private keys
+*.pem
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Terraform directories
+**/.terraform/*
